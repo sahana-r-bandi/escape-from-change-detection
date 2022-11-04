@@ -18,6 +18,7 @@ export class AppComponent {
     console.log(action);
   }
 
+  //ngAfterViewChecked: A lifecycle hook that is called after the default change detector has completed checking a component's view for changes.
   ngAfterViewChecked() {
     console.log('View checked!!!!!');
   }
